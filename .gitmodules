@@ -1,0 +1,18 @@
+[submodule "ansible/roles/ansible-role-intellij"]
+	path = ansible/roles/ansible-role-intellij
+	url = https://github.com/rdeknijf/ansible-role-intellij.git
+[submodule "ansible/roles/ansible-maven"]
+	path = ansible/roles/ansible-maven
+	url = https://github.com/tecris/ansible-maven.git
+[submodule "ansible/roles/ansible-oracle-jdk"]
+	path = ansible/roles/ansible-oracle-jdk
+	url = https://github.com/medzin/ansible-oracle-jdk.git
+[submodule "ansible/roles/ansible-role-vagrant"]
+	path = ansible/roles/ansible-role-vagrant
+	url = https://github.com/infOpen/ansible-role-vagrant.git
+[submodule "ansible/roles/ansible-ansible"]
+	path = ansible/roles/ansible-ansible
+	url = https://github.com/FGtatsuro/ansible-ansible.git
+[submodule "ansible/roles/sa-git"]
+	path = ansible/roles/sa-git
+	url = https://github.com/softasap/sa-git.git

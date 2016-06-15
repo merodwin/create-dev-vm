@@ -1,0 +1,13 @@
+- hosts: dev
+  pre_tasks:
+    - name: ensure right host family
+      set_fact: ansible_os_family="Debian"
+      when: ansible_os_family == "Debian" or ansible_os_family == "Linuxmint"
+  roles:
+  - { role: ansible-oracle-jdk, oracle_jdk_version: 8, oracle_jdk_update: 92, oracle_jdk_build_number: b14, become: yes }
+  - { role: ansible-role-intellij, intellij_version: 2016.1 , intellij_download_dir: /tmp/, become: yes }
+  - { role: ansible-maven, maven_major: 3, maven_release: 3.3.9, maven_home_parent_directory: /opt, become: yes } 
+  - { role: ansible-role-checkout-rapidpm }
+  - { role: ansible-role-vagrant, become: yes }
+
+
