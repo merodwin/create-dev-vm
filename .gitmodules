@@ -16,3 +16,6 @@
 [submodule "ansible/roles/sa-git"]
 	path = ansible/roles/sa-git
 	url = https://github.com/softasap/sa-git.git
+[submodule "ansible/roles/ansible-role-checkout-rapidpm"]
+	path = ansible/roles/ansible-role-checkout-rapidpm
+	url = https://github.com/merodwin/ansible-role-checkout-rapidpm.git
